@@ -1,0 +1,80 @@
+.Nav-items {
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  /* background-color: red; */
+  align-items: center;
+  list-style-type: none;
+  gap: 60px;
+}
+.Nav-items a {
+  text-decoration: none; /* removes underline */
+  color: inherit;
+}
+.Nav-items a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid; /* optional: custom hover color */
+}
+.icon-gap a {
+  text-decoration: none; /* removes underline */
+  color: inherit; /* makes link inherit parent color */
+}
+.icon-gap a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid;
+}
+.Header-Container {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 100px);
+  height: 15vh;
+  position: fixed;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0px 50px 0px 50px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  z-index: 9999;
+}
+.NavRightElements {
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  /* padding-right: 10px; */
+  align-items: center;
+  list-style-type: none;
+  gap: 60px;
+}
+.HeaderLog {
+  font-size: 40px;
+}
+.NavRightElements li {
+  display: flex;
+}
+.icon-gap {
+  padding-left: 15px;
+  padding-top: 3px;
+}
+.icon-size {
+  font-size: 25px;
+}
+.active-link {
+  border-bottom: 2px solid #000; /* underline effect */
+  padding-bottom: 5px; /* spacing so underline isn’t flush */
+  font-weight: bold; /* optional highlight */
+}
+.ProductCards-title {
+  margin: 0px auto 59px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  position: relative;
+}
+.ProductCards-title1 {
+  margin: 125px auto 59px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  position: relative;
+}

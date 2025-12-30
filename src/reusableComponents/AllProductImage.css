@@ -1,0 +1,14 @@
+.galary-image-card {
+  width: 308px;
+  height: 365px;
+  overflow: hidden;
+}
+.galary-image-card img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.7s ease;
+}
+
+.galary-image-card:hover img {
+  transform: scale(1.3); /* zoom in */
+}

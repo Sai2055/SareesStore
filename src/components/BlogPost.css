@@ -1,0 +1,29 @@
+.blog-header {
+  margin: 125px auto 59px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  position: relative;
+}
+
+.blogPost-body {
+  display: flex;
+  margin: 0 65px;
+  gap: 21px;
+}
+
+.kidGalary-card {
+  position: relative;
+  display: flex;
+  height: 660px;
+}
+
+.blog-description-body {
+  color: gray;
+}
+
+.blog-description-footer {
+  display: flex;
+  flex-direction: column;
+}
+.

@@ -1,0 +1,15 @@
+.MensPage-container {
+  width: calc(100% - 140px);
+  height: calc(85vh - 140px); /* grows if content is taller */
+  display: flex;
+  padding: 50px 70px;
+  justify-content: space-between;
+}
+
+.div-item {
+  padding: 9px 0px;
+}
+.div-item1 {
+  padding: 9px 0px;
+  font: bolder;
+}

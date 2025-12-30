@@ -1,0 +1,35 @@
+.ProductCardCarosal {
+  display: flex;
+  position: relative;
+}
+
+.ProductCard-details {
+  display: flex;
+  gap: 82px;
+  padding: 0 55px;
+}
+.ProductCard-carosal-icons {
+  position: absolute;
+  left: 260px;
+  background-color: #e6e6e6;
+  padding: 16px;
+  border-radius: 30px;
+  top: 110px;
+}
+.ProductCard-carosal-icons1 {
+  position: absolute;
+  right: 260px;
+  background-color: #e6e6e6;
+  padding: 16px;
+  border-radius: 30px;
+  top: 110px;
+}
+.ProductCard-carosal-icons:hover {
+  background-color: #908f8f;
+}
+.ProductCard-carosal-icons1:hover {
+  background-color: #908f8f;
+}
+.icon-font {
+  font-size: 25px;
+}

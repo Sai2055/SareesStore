@@ -1,0 +1,28 @@
+.blog-descrption-container {
+  position: absolute;
+  background-color: white;
+  width: 215px;
+  left: 43px;
+  top: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+}
+.blog-user {
+  display: flex;
+  gap: 15px;
+}
+.blog-date {
+  display: flex;
+  gap: 15px;
+  color: gray;
+}
+.blog-description-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.description-separator {
+  border-bottom: 1px solid;
+}

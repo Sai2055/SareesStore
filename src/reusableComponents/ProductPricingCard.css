@@ -1,0 +1,8 @@
+.Product-Pricing {
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+  gap: 10px;
+  font-weight: bold;
+  align-items: center;
+}
